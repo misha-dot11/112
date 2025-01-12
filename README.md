@@ -8,8 +8,8 @@ def guess_the_number():
     print("Я загадал число от 1 до 100. Попробуйте угадать его!")
 
     while True:
-        guess_input = input("Введите ваше предположение: ")  # Запрос числа у игрока
-        if guess_input.isdigit():
+        guess_input = input("Введите ваше предположение: ") 
+        if guess_input():
             guess = int(guess_input) 
             attempts += 1 
 
